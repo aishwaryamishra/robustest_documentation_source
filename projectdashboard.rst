@@ -64,7 +64,7 @@ Admin members have a few additonal privileges when compared to non-admin members
 
 By default, a member who creates a project has admin privileges on that project.
 
-**Note:** :bolditalic:`An Admin member of a project is different from a RobusTest Admin` The former's privileges are restricted to the project the member is a part of while the latter has special prvileges on the entire RobusTest platform
+**Note:** :bolditalic:`An Admin member of a project is different from a RobusTest Admin` The former's privileges are restricted to the project the member is a part of while the latter has special privileges on the entire RobusTest platform
 
 **3. Upload Build - Remote**
 
