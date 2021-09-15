@@ -18,7 +18,7 @@ The Project Dashboard provides you information about the project you have create
 
 Let's have a look at the Dashboard in detail.
 
-The Project Dashboard constitutes of the following 4 sections:
+The Project Dashboard constitutes of the following 5 sections:
 
 1. Builds
 2. Team
