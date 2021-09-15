@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project Dashboard
 =================
 
@@ -18,7 +19,7 @@ The Project Dashboard provides you information about the project you have create
 
 Let's have a look at the Dashboard in detail.
 
-The Project Dashboard constitutes of the following 4 sections:
+The Project Dashboard constitutes of the following 5 sections:
 
 1. Builds
 2. Team
@@ -123,3 +124,4 @@ This section provides you the following options:
 Once you have integrated your Bug Tracker tool wih RobusTest, this configuration will be available for selection in the 'Bug Tracker' drop down. Once the required configuration is selected, all bugs encountered during your testing can be logged directly, from RobusTest, into the tool of your choice.
 
 You can configure your project with the tool of your choice through the 'Integration' section of the RobusTest Admin Console.
+=======
