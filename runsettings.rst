@@ -42,9 +42,9 @@ Now that you have created a run setting, let's see how you can configure your te
 
 :bolditalic:`b. Automation Test session`
 
-  * Click on the 'Automation' icon on the Project Dashboard. The device selcetion screen now comes up
+  * Click on the 'Automation' icon on the Project Dashboard. The device selection screen now comes up
 
-  * While on the device selection dialog, clcik on the 'Configure Session' icon on the top right corner.
+  * While on the device selection dialog, click on the 'Configure Session' icon on the top right corner.
 
   * On the pop window that opens up, you will find a drop down called 'Run Settings'. You can select the Automation Run Setting that you would like to use by clicking on it in this drop down.
 
