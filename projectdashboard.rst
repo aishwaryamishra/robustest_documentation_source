@@ -43,7 +43,7 @@ You can upload multiple builds to a project. You can choose the build to be test
 In addition to providing you the details about the build, this section of the Dashboard also allows you to perform the following tasks:
 
 * :bolditalic:`Upload New Build` - Clicking on this button enables you to manually upload an app build from a chosen location to the project
-* :bolditalic:`Get selected Build URL` - Clicking on this button copies to the clipboard, the URL to download the currently selected build in the project. On pasting this URL on a browsr tab and hitting enter, the user is able to download the currently selected build onto their computer.
+* :bolditalic:`Get selected Build URL` - Clicking on this button copies to the clipboard, the URL to download the currently selected build in the project. On pasting this URL on a browser tab and hitting enter, the user is able to download the currently selected build onto their computer.
 * :bolditalic:`Copy the build ID` - Clicking on this button copies to the clipboard, the build ID of the currently selected build in the project.
 * :bolditalic:`Delete Selected Build` - Clicking on this button deletes the currently selected build from the project. Only a project member with admin privileges can delete a build.
 
