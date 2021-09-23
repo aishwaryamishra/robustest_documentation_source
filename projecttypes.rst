@@ -30,7 +30,7 @@ In a mobile WebApp project, in order to test, you need to do the following:
 1. Select a device for testing
 2. Select a browser on which you would like to open the WebApp
    - you will be provided a list of browsers to choose from. These are browsers that are available on the selected device
-3. Once your selections are completed, the Mobile WebApp will be launched on the browsr you selected on the device. You may now commence with your testing.
+3. Once your selections are completed, the Mobile WebApp will be launched on the browser you selected on the device. You may now commence with your testing.
 
 **4. Device Only Project**
 
