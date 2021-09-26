@@ -53,7 +53,7 @@ The Manual Test Session, consists of 2 parts:
 
   The 'Test Configuration' section enables you to test better and easier by providing various add-on features
 
-  Thse features are available across 2 menus:
+  These features are available across 2 menus:
 
   **a.** :ref:`device-config-menu-manual`
   
