@@ -156,7 +156,7 @@ The Manual Test Session, consists of 2 parts:
 
    **8. Burst Mode Screenshot**  
 
-    Burst Mode is an advanced mode of taking screenshots. On clicking on this button, for a period of 30 seconds, a screenshot is automatically taken everytime there is a change on the devcice screen. At the end of this period, you can individually edit and download each screenshot.
+    Burst Mode is an advanced mode of taking screenshots. On clicking on this button, for a period of 30 seconds, a screenshot is automatically taken everytime there is a change on the device screen. At the end of this period, you can individually edit and download each screenshot.
 
     This feature proves very helpful in cases where you would like to capture an entire flow in your testing scenario.
 
