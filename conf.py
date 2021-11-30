@@ -21,7 +21,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'RobusTest User Documentation'
-copyright = u'2020, Izinga Software Pvt Ltd'
+copyright = u'2022, Izinga Software Pvt Ltd'
 author = u'Izinga Software Pvt Ltd'
 
 # The short X.Y version
@@ -41,7 +41,7 @@ release = u''
 # ones.
 extensions = [
     'sphinx.ext.ifconfig',
-    'sphinx.ext.githubpages',
+    'sphinx.ext.githubpages'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -77,7 +77,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -91,15 +91,15 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_context = {
-    'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
-        ],
-     }
+#html_context = {
+#    'css_files': ['_static/theme_overrides.css'], 
+#     }
 
 def setup(app):
-    app.add_stylesheet("css/mycustom.css")
+    app.add_css_file("_static/mycustom.css")
+    app.add_css_file("_static/theme_overrides.css")
+
+
 #html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -115,9 +115,9 @@ def setup(app):
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'RobusTest20Documentationdoc'
+    htmlhelp_basename = 'RobusTest20Documentationdoc'
 
-html_logo = 'logo.png'
+    html_logo = 'logo.png'
 
 # -- Options for LaTeX output ------------------------------------------------
 
