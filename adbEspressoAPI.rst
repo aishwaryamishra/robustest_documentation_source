@@ -5,7 +5,7 @@ API to execute ADB commands from within an Espresso test
    :class: bolditalic
 
 .. role:: underline
-    :class: underline
+    :class: underlin
 
 **API Definiton**
 
