@@ -10,13 +10,12 @@ Run API tests using Karate
     :class: underline
 
 
-Karate is a test automation framework that can be used to perform API testing.
+RobusTest enables monitoring and viewing of automation test runs of API tests written using Cucumber/Gherkins [https://cucumber.io/docs/gherkin/] and run using Karate/Maven [https://github.com/karatelabs/karate]. In the following page, we shall walk you through the steps to run your API tests in such a way so that you can push the results to RobusTest.
 
-If your organisation uses Karate to test your APIs, then RobusTest provides you a way to push your test results to RobusTest so that you can see your run reports in one place.
 
 **Pre-requisites:​**
 
-**1.** Apache Maven should be installed on your laptop (or on the server from where you are going to execute your tests)
+**1.** Apache Maven should be installed on the system on which the tests are going to be run using Karate
 
 **2.** The path to Apache Maven's '*bin*' folder should be added to your machine's *PATH* environment variable
 
@@ -26,36 +25,39 @@ If your organisation uses Karate to test your APIs, then RobusTest provides you 
 
 **Steps for set up and execution:**
 
-**1.** Obtain the latest version of the '*karate-robustest-demo*' folder
+**1.** Obtain the latest version of the '*Karate-API-Testing*' zip file from your RobusTest Point of Contact
 
-   * On request, RobusTest provides you with a special Karate folder as a zip file.
-   * Download this zip file.
-   * Unzip the file.
-   * You will now see a folder called '*karate-robustest-demo*'.
+   * On request, RobusTest provides you with a custom zip file containing the libraries to run your Karate tests.
+   * Download and unzip the file.
+   * You should see a folder with the name '*Karate-API-Testing*'.
 
-**2.** On Terminal, go to the folder '*karate-robustest-demo/src/test/java*'.
+**2.** On Terminal, go to the folder '*Karate-API-Testing/src/test/java*'.
 
 ​
-**3.** Open the file named **reportportal.properties** in edit mode and provide appropriate values for the following fields:
+**3.** Open the file named **reportportal.properties** in edit mode and enter appropriate values for the following fields:
    * **rp.endpoint**
 
      * this will point to the robustest hub url
-     * it will be of the form: *<RobusTest URL>/v2/hub* 
+     * it will be of the form: *<RobusTest URL>/v2/hub e.g. http://devicelab.acme.com/v2/hub* 
    * **rp.launch** 
    
-     * You can provide any custom string in this field. It will act as an identifier for your API job. 
-     * All test cases that should be displayed under the same job should have the same value for this field.
+     * This value will the identifier for your test automation job. You can provide any custom string in this field.
+     * All test runs that should be displayed under the same job should have the same value for this field.
    * **rp.project**
    
-     * This will be the project ID of the RobusTest project in which you will be running your API report jobs
-   * the *accessKey* parameter in **rp.attributesfield**
+     * Project ID of the RobusTest project to which you wish to push your API test reports
+   * **rp.description**
    
+     * Description of the job that you are running the tests under
+   * the *accessKey* parameter in **rp.attributesfield**
      * You can get your access key from your profile section on RobusTest
+     * accessKey parameter is specified as a key value pair in rp.attributesfield
+     * Notice the syntax of separating the attributes using semi colon
 
-**4.** Place your feature files in the *karate-reportportal-demo/src/test/java/features* folder
+**4.** Place your feature files in the *Karate-API-Testing/src/test/java/features* folder
 
 **5.** Executing your API Tests:
-   * Go to the *karate-reportportal-demo* folder and run the command **mvn clean test​**
+   * Go to the *Karate-API-Testing* folder and run the command **mvn clean test​**
    * This command cleans your 'target' folder and then executes your tests.
    * You should now see a job being executed in the Test Runs page of your RobusTest project.
 
@@ -86,3 +88,5 @@ If your organisation uses Karate to test your APIs, then RobusTest provides you 
 **3.** Go to the 'Test Cases' section of the job run report on RobusTest.
 
 **4.** You can now use the '*Search*' bar to search using the Test Group required. E.g. on searching with '*movie*', all test cases that come under the 'movies' group are listed.
+
+**5** Each test case is tagged with the annotations used for its feature files
