@@ -56,6 +56,6 @@ All RobusTest specific desired capabilities should be provided by appending 'rob
 
   - *testcaseTimeout* - this value (in secs) can be used to specify the maximum run time of a test case. This value will be used by the system only when Advanced Integration with RobusTest Appium Hub is done.
 
-4. Additional custom desired capabilities
+**4. Additional custom desired capabilities**
 
-a. **robustest:fallbackScreenshotMode** - this desired capability is specific to iOS test sessions. To ensure a higher success rate of screenshtos, user can use the *robustest.fallbackScreenshotMode* desired capability. Valid values are i. idevicescreenshot ii. appium. If this desired capability is not used, fallback method will not be employed to take a screenshot in case the default screnenshot method does not work.
+   - **robustest:fallbackScreenshotMode** - this desired capability is specific to iOS test sessions. To ensure a higher success rate of screenshtos, user can use the *robustest.fallbackScreenshotMode* desired capability. Valid values are i. idevicescreenshot ii. appium. If this desired capability is not used, fallback method will not be employed to take a screenshot in case the default screnenshot method does not work.
