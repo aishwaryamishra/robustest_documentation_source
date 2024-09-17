@@ -37,7 +37,7 @@ In your test case, you shall define the following value
 
 Note that the values that you provide in the baseCapabilities.js file can be over-ridden at your test case level.
 
-Check the test_basic.js sample test case to understand better the writing of a Roku test case to run on RobusTest device lab..
+Check the test_basic.js sample test case to understand better the writing of a Roku test case to run on RobusTest device lab.
 
 
 
